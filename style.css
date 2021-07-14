@@ -1,9 +1,14 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* common styles */
+/* Header Area Styles */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     background-color: #2D25A0;
@@ -44,11 +49,37 @@ header{
     display: flex;
     justify-content: center;
 }
-/* .container{
+
+/* Main Area | Player Profile Styles */
+.player-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+}
+.single-profile{
+    width: 300px;
+    height: 474px;
+    padding: 15px 15px 30px 15px;
+    margin: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.single-profile h3{
+    font-size: 28px;
+    line-height: 40px;
+}
+.player-info p{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px 0px;
+}
+.single-profile img{
+    width: 300px;
+    height: 256px;
+}
+
+.container{
     background-color: #FFFFFF;
-    width: 870px;
-    padding: 30px;
-    margin-top: 21px;
-    border-radius: 5px;
-} */
+    margin-left: 180px;
+    margin-right: 210px;
+}
 
